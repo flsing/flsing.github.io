@@ -3,6 +3,7 @@
 
 ## Getting Started
 
+This is the website I made in order to show what I have done. Feel free to bookmark the page in order to stay up to date with my activity and projects. I used a Bootstrap template and created the rest myself. April 2017
 
 
 ## Bugs and Issues
@@ -11,11 +12,7 @@ If you find any bugs or issues, please be free to send me a messege!
 
 ## Creator
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
+The template I used was Start Bootstrap and was created by and is maintained by **[David Miller](http://davidmiller.io/)**
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
