@@ -1,77 +1,37 @@
-## Welcome to My Website!
+# [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
-Feel free to bookmark my page in order to keep up to date with my projects. 
+[Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
 
-### Education
+## Getting Started
 
-#### Honours Bachelor of Science:	      			                       	           
-University of Ottawa, Ottawa, Ontario
+Several options are available to get started quickly:
+* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/agency/)
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
+* Fork the repo
 
-•	Specialization in Computer Science		GPA 3.25/4.00
+## Developing Using Source Files
 
-•	Management and Entrepreneurship Option
+To use the source files, you will need to have npm installed globally along with Gulp.js. To start:
+* Run `npm install` in the root directory
+* Run `gulp dev` and edit the files as needed
 
-•	Elected member of the Engineering Faculty Council
+If you need to update the plugins included with this template, simply run the following tasks:
+* First run `npm update` to update the dependencies
+* Then run `gulp copy` to copy the new versions to their proper destinations
 
-Selected Coursework: Data Structures and Algorithms, Databases, Programming Paradigms, Software Engineering, Discrete Math I & II, Intro to Programming I & II, Digital Systems, Technical Report Writing, Professional Practice in Engineering and Computer Science 
+## Bugs and Issues
 
-### Technical Skills
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
 
-Programming/Scripting Languages: Java, Python, SQL, Prolog, Scheme, GO
-Technologies/Environment: UNIX/Linux, MAC OS, Windows, PostgreSQL, Flask, UML, Data Structures, Git
+## Creator
 
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-```markdown
-Syntax highlighted code block
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-# Header 1
-## Header 2
-### Header 3
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-- Bulleted
-- List
+## Copyright and License
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Projects
-
-#### Smart Refrigerator System:
-•	Created a database system to monitor the contents of a refrigerator using PostgreSQL
-•	Respected all required normal forms
-•	Used Python and the flask framework for the back-end
-•	Edited a bootstrap template for the front-end 
-
-#### “Circle The Dot” Game (Java):
-•	Implemented the model-view-controller design pattern
-•	Designed an application utilizing event-driven programming  
-•	Used a Breadth-First Search algorithm in order to find the shortest path
-
-#### Android “Cook Helper” Application:
-•	Selects and displays recipes that contain the ingredients you already have
-•	Obtained results according to relevance (ingredients and category, or type of food)
-
-
-### Experience/Volunteering
-
-#### Engineering Faculty Council					           
-University of Ottawa, Ottawa, Ontario
-•	Elected to represent all undergraduate students of the School of Electrical Engineering and Computer Science at Faculty Council meetings
-
-#### Community Pillars:							   
-Chabad on Campus, Ottawa, Ontario
-•	Organized and participated in weekly community service projects in the Ottawa area
-
-
-### Contact
-
-You can reach me at flsingerman@gmail.com. 
-You can check out my [linkedin](https://www.linkedin.com/in/felix-singerman/). 
-
+Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
