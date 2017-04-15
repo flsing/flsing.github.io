@@ -75,4 +75,3 @@ Chabad on Campus, Ottawa, Ontario
 You can reach me at flsingerman@gmail.com. 
 You can check out my [linkedin](https://www.linkedin.com/in/felix-singerman/). 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
