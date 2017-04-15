@@ -4,13 +4,12 @@ Feel free to bookmark my page in order to keep up to date with my projects.
 
 ### Education
 
-Honours Bachelor of Science:	      			                       	           
+#### Honours Bachelor of Science:	      			                       	           
 University of Ottawa, Ottawa, Ontario
 
 •	Specialization in Computer Science		GPA 3.25/4.00
 
 •	Management and Entrepreneurship Option
-
 •	Elected member of the Engineering Faculty Council
 
 Selected Coursework: Data Structures and Algorithms, Databases, Programming Paradigms, Software Engineering, Discrete Math I & II, Intro to Programming I & II, Digital Systems, Technical Report Writing, Professional Practice in Engineering and Computer Science 
