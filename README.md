@@ -1,12 +1,16 @@
 ## Welcome to My Website!
 
-You can use the [editor on GitHub](https://github.com/flsing/flsing.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Feel free to bookmark my page in order to keep up to date with my projects. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Education
 
-### Markdown
+Honours Bachelor of Science:	      			                       	           
+University of Ottawa, Ottawa, Ontario
+•	Specialization in Computer Science		GPA 3.25/4.00
+•	Management and Entrepreneurship Option
+•	Elected member of the Engineering Faculty Council
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Selected Coursework: Data Structures and Algorithms, Databases, Programming Paradigms, Software Engineering, Discrete Math I & II, Intro to Programming I & II, Digital Systems, Technical Report Writing, Professional Practice in Engineering and Computer Science 
 
 ```markdown
 Syntax highlighted code block
