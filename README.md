@@ -10,9 +10,16 @@ University of Ottawa, Ottawa, Ontario
 •	Specialization in Computer Science		GPA 3.25/4.00
 
 •	Management and Entrepreneurship Option
+
 •	Elected member of the Engineering Faculty Council
 
 Selected Coursework: Data Structures and Algorithms, Databases, Programming Paradigms, Software Engineering, Discrete Math I & II, Intro to Programming I & II, Digital Systems, Technical Report Writing, Professional Practice in Engineering and Computer Science 
+
+### Technical Skills
+
+Programming/Scripting Languages: Java, Python, SQL, Prolog, Scheme, GO
+Technologies/Environment: UNIX/Linux, MAC OS, Windows, PostgreSQL, Flask, UML, Data Structures, Git
+
 
 ```markdown
 Syntax highlighted code block
@@ -34,10 +41,38 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Projects
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/flsing/flsing.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Smart Refrigerator System:
+•	Created a database system to monitor the contents of a refrigerator using PostgreSQL
+•	Respected all required normal forms
+•	Used Python and the flask framework for the back-end
+•	Edited a bootstrap template for the front-end 
 
-### Support or Contact
+#### “Circle The Dot” Game (Java):
+•	Implemented the model-view-controller design pattern
+•	Designed an application utilizing event-driven programming  
+•	Used a Breadth-First Search algorithm in order to find the shortest path
+
+#### Android “Cook Helper” Application:
+•	Selects and displays recipes that contain the ingredients you already have
+•	Obtained results according to relevance (ingredients and category, or type of food)
+
+
+### Experience/Volunteering
+
+#### Engineering Faculty Council					           
+University of Ottawa, Ottawa, Ontario
+•	Elected to represent all undergraduate students of the School of Electrical Engineering and Computer Science at Faculty Council meetings
+
+#### Community Pillars:							   
+Chabad on Campus, Ottawa, Ontario
+•	Organized and participated in weekly community service projects in the Ottawa area
+
+
+### Contact
+
+You can reach me at flsingerman@gmail.com. 
+You can check out my [linkedin](https://www.linkedin.com/in/felix-singerman/). 
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
