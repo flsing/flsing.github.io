@@ -23,7 +23,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
 
-    <!-- Theme CSS  to be edited-->
+    <!-- Theme CSS-->
     <link href="css/agency.min.css" rel="stylesheet">
 
 
@@ -33,10 +33,9 @@
 
 <body id="page-top" class="index">
 
-    <!-- Navigation Bar-->
+    <!-- Nav Bar-->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
@@ -66,7 +65,11 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a class="language" href="index-fr.html" >FR</a>
+                    </li>
                 </ul>
+            
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -272,6 +275,21 @@
                 </div>
 
 
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/datacompression.jpg" class="img-responsive" alt="" width="200">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Huffman Coding Algorithm</h4>
+                        <p class="text-muted">Data Structures and Algorithms</p>
+                    </div>
+                </div>
+
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
@@ -297,7 +315,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="" width="270">
+                        <img src="img/portfolio/website.png" class="img-responsive" alt="" width="270">
                     </a>
                     <div class="portfolio-caption">
                         <h4>My Website</h4>
@@ -360,40 +378,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-    <!-- Clients Aside -->
-    <!--
-    <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside> 
---!>
-
 
 
     <!-- Contact Section -->
@@ -497,7 +481,7 @@
                                 <p>I created a database system together with Patrick Langis to monitor the contents of a refrigerator using PostgreSQL. Our database respected all required normal forms. We used Python and the flask framework for the back-end and we edited a bootstrap template for the front-end using HTML and CSS.
                                 </p>
                                 <p>
-                                    <strong>Download the Code on github </strong><a href="https://github.com/flsing/Smart-Fridge">Here</a>
+                                    <strong>Download the source code on </strong><a href="https://github.com/flsing/Smart-Fridge" target="_blank">Github</a>.
                                     <ul class="list-inline">
                                         <li>Date: January 2017 - Present</li>
                                         <li>Client: CSI 2132</li>
@@ -529,15 +513,14 @@
                                 <h2>Cook Helper Application</h2>
                                 <p class="item-intro text-muted">Munchies: What do you have in your fridge?</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/chef.png" alt="">
-                                <p>The Munchies App was created by Eyob Tilaye, Wilson Ly, and Felix Singerman. Munchies was built using Android Studio.</p>
-                                <p> Munchies selects and displays recipes that contain ingredients you already have. Munchies obtained results according to relevance (ingredients and category, or type of food).
+                                <p>The Munchies App was created by Eyob Tilaye, Wilson Ly, and Felix Singerman. Munchies was built using Android Studio.<br> Munchies selects and displays recipes that contain ingredients you already have. Munchies obtained results according to relevance (ingredients and category, or type of food).
                                 </p>
 
-                                <strong>You can download the code </strong><a href="https://github.com/flsing/SEG2105">here</a>.
-                                <ul class="list-inline">
+                                <strong>You can download the <a href="https://github.com/flsing/SEG2105" target="_blank">source code</a>, and the <a href="https://github.com/flsing/SEG2105/blob/master/Deliverable4-FinalReport.pdf" target="_blank">report</a> on Github.</strong>
+                                <ul class="list-inline"><br>
                                     <li>Date: September 2016 - December 2016</li>
                                     <li>Client: SEG 2105</li>
-                                    <li>Category: Android Application</li>
+                                    <li>Category: Android Application -- Software Engineering</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -566,13 +549,14 @@
                                 <h2>Circle the Dot game</h2>
                                 <p class="item-intro text-muted">Built in Java</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/circle_dot.png" alt="">
-                                <p>Eyob Tilaye and Felix Singerman designed our own version of the popular Circle the Dot game. We implemented the model-view-controller design pattern. We designed the application utilizing event-driven programming. We used a Breadth-First Search algorithm in order to find the shortest path. Similar examples of the game can be found <a href="http://www.crazygames.com/game/circle-the-cat">here</a>.</p>
+                                <p>Eyob Tilaye and I designed our own version of the popular Circle the Dot game. We implemented the model-view-controller design pattern. We designed the application utilizing event-driven programming. We used a Breadth-First Search algorithm in order to find the shortest path. Similar examples of the game can be found <a href="http://www.crazygames.com/game/circle-the-cat" target="_blank">here</a>.</p>
 
-                                <strong>You can download the code at </strong><a href="https://github.com/flsing/ITI1121">Github.com</a>.
+                                <strong>You can download the code on </strong><a href="https://github.com/flsing/ITI1121" target="_blank">Github</a>.
                                 <ul class="list-inline">
+                                    <br>
                                     <li>Date: January 2016 - April 2016</li>
                                     <li>Client: ITI 1121</li>
-                                    <li>Category: Model-View-Controllor Game</li>
+                                    <li>Category: Model-View-Controllor Java Game</li>
                                 </ul>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
@@ -600,12 +584,13 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>My Personal Website</h2>
-                                <p class="item-intro text-muted">My Portfolio</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                                <p class="item-intro text-muted">My Website</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/website.png" alt="">
                                 <p>I created this website as a personal project. I hope you enjoy my portfolio!</p>
 
-                                <strong>You can download the code for this website at </strong><a href="https://github.com/flsing/flsing.github.io">Github.com</a>.
+                                <strong>You can download the srouce code for this website on </strong><a href="https://github.com/flsing/flsing.github.io" target="_blank">Github</a>.
                                 <ul class="list-inline">
+                                    <br>
                                     <li>Date: April 2017 - Present </li>
                                     <li>Client: Myself</li>
                                     <li>Category: Personal Website</li>
@@ -620,8 +605,8 @@
         </div>
     </div>
 
+
     <!-- Portfolio Modal 5 -->
-    <!--
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -635,43 +620,21 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                 Project Details Go Here 
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
--->
+                                <!-- Project Details Go Here -->
+                                <h2>Huffman Coding Algorithm</h2>
+                                <p class="item-intro text-muted">Data Structures and Algorithms</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/HUffman.png" alt="">
+                                <p>My attempt at the Huffman coding algorithm (both encoding and decoding). <br> Huffman encoding is a compression technique that reduces the number of bits needed to store a message based on the idea that more frequent letters should have a shorter bit representation and less frequent ones should have a longer bit representation. Text compression is useful when we wish to reduce bandwidth for digital communications, so as to minimize the time required to transmit a text. Text compression is also used to store large documents more efficiently, for instance allowing your hard drive to contain as many documents as possible.<br>For example the message: AACGTAAATAATGAAC that has 16 letters can be encoded with 32 bits as 00000110110000001100001110000001 Huffman encoding would instead choose a variable length code to take advantage of difference in letter frequencies. With Huffman encoding the same message can be encoded with 27 bits (saving 15% space) 110100110011100110001111010 <br><br> For more information on how Huffman Coding works please see this <a href="https://www.youtube.com/watch?v=apcCVfXfcqE" target="_blank">video</a>.</p>
 
-    <!-- Portfolio Modal 6 -->
-    <!--
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                 Project Details Go Here 
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <strong>You can download the source code for this website on </strong><a href="https://github.com/flsing/CSI2110" target="_blank">Github</a>.
+                                <ul class="list-inline">
+                                    <br>
+                                    <li>Date: September 2016 - December 2016 </li>
+                                    <li>Client: CSI2110</li>
+                                    <li>Category: Huffman Coding</li>
+                                    <li>Goals: Practice implementing tree-based data structures. Practice analyzing different alternative implementations for auxiliary data structures (priority queues). Appreciation of how data structures can be used for practical purposes.</li>
+                                </ul>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -680,7 +643,7 @@
             </div>
         </div>
     </div>
--->
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
