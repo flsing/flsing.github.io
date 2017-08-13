@@ -66,10 +66,12 @@
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a class="language" href="index-fr.html" >FR</a>
+                        <a class="page-scroll" href="#0" data-toggle="popover" data-trigger="focus"  data-content="Still Under Construction">FR</a>
+
+                        <!--<a class="language" href="index-fr.html" >FR</a>-->
                     </li>
                 </ul>
-            
+
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -428,8 +430,8 @@
     </section>
 
 
-    <!-- Footer section -->
-    <footer class="bg-light-gray">
+    <!-- Footer section uncover -->
+    <footer class="bg-light-gray ">
         <div class="container">
             <div class="row">
 
@@ -626,7 +628,7 @@
                                 <img class="img-responsive img-centered" src="img/portfolio/HUffman.png" alt="">
                                 <p>My attempt at the Huffman coding algorithm (both encoding and decoding). <br> Huffman encoding is a compression technique that reduces the number of bits needed to store a message based on the idea that more frequent letters should have a shorter bit representation and less frequent ones should have a longer bit representation. Text compression is useful when we wish to reduce bandwidth for digital communications, so as to minimize the time required to transmit a text. Text compression is also used to store large documents more efficiently, for instance allowing your hard drive to contain as many documents as possible.<br>For example the message: AACGTAAATAATGAAC that has 16 letters can be encoded with 32 bits as 00000110110000001100001110000001 Huffman encoding would instead choose a variable length code to take advantage of difference in letter frequencies. With Huffman encoding the same message can be encoded with 27 bits (saving 15% space) 110100110011100110001111010 <br><br> For more information on how Huffman Coding works please see this <a href="https://www.youtube.com/watch?v=apcCVfXfcqE" target="_blank">video</a>.</p>
 
-                                <strong>You can download the source code for this website on </strong><a href="https://github.com/flsing/CSI2110" target="_blank">Github</a>.
+                                <strong>You can view the source code on </strong><a href="https://github.com/flsing/CSI2110" target="_blank">Github</a>.
                                 <ul class="list-inline">
                                     <br>
                                     <li>Date: September 2016 - December 2016 </li>
@@ -657,7 +659,7 @@
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
-    
+
     <!-- Konami Cheat Code -->
     <script src="js/konami.js"></script>
 
@@ -666,6 +668,13 @@
 
     <!-- Plug-Ins -->
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+    <!-- Popover -->
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
 
     <!-- Google Analytics -->
     <script>
