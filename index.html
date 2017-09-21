@@ -111,7 +111,7 @@
                                     <h4>Hello World</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted text-left">Welcome to my website! I am a 3rd-year Computer Science Student at the University of Ottawa. I'm a big fan of Scheme, a functional programming language and one of the main dialects of Lisp. I’ve always been extremely interested in computing and logical problem-solving. My sister and I were always on our computers growing up, and I always wanted to know how computers worked, why they worked and what else they could do. This interest never left me, and only grew more profound and passionate over time.</p>
+                                    <p class="text-muted text-left">Welcome to my website! I am a 4th-year Computer Science Student at the University of Ottawa. I'm looking to continue my studies and pursue my Masters in Computer Science where ill be looking to specialize in Natural Language Understanding (NLU). <br>I’ve always been extremely interested in computing and logical problem-solving. My sister and I were always on our computers growing up, and I always wanted to know how computers worked, why they worked and what else they could do. This interest never left me, and only grew more profound and passionate over time.</p>
                                     <br>
                                     <p class="text-muted">(You can find me on <a href="https://github.com/flsing/"> Github</a>, <a href="https://www.linkedin.com/in/felix-singerman/"> LinkedIn</a>, <a href="https://facebook.com/flsingerman">Facebook</a>, <a href="https://stackoverflow.com/users/7371879/felix"> Stack Overflow</a>)</p>
                                 </div>
@@ -127,11 +127,11 @@
                                     <h5 class="subheading">Programming/Scripting Languages</h5>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Java, Python, SQL, Prolog, Scheme, GO, HTML</p>
+                                    <p class="text-muted">Java, Python, SQL, Prolog, Scheme, HTML</p>
                                 </div>
                                 <h5 class="subheading">Technologies/Environment</h5>
                                 <div class="timeline-body">
-                                    <p class="text-muted">UNIX/Linux, MAC OS, PostgreSQL, Lucene, Solr, Anaconda Python, Flask, UML, Git, Bootstrap</p>
+                                    <p class="text-muted">Shell Script (Bash), Apache Lucene, Anaconda Python, Git, PostgreSQL, Flask, Vi, UML, JSON, UNIX, Bootstrap</p>
                                 </div>
                             </div>
                         </li>
@@ -154,7 +154,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/download.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/Screen-Shot-2017-02-08-at-10.38.31-300x283.png" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -193,15 +193,23 @@
 
                     <h4 class="service-heading"> Data Scientist Intern - Nuance Communications</h4>
                     <h6 class="service-heading">June 2017 - August 2017</h6>
-                    <p class="text-muted"> I worked at Nuance Communications as a Data Scientist Intern during the Summer of 2017.
+                    <p class="text-muted"> I worked at Nuance Communications as a Data Scientist Intern as part of the Dragon ASR Research team during the Summer of 2017.
 
                         <!--       TODO: Update this with specific tasks of what I did
-                        My tasked included:
+                        Here is a brief discription of what I did during my internship:
 
-                        <li class="text-left">dfdsdfdsfdsfsdfadfdffsfsfdsfffss
+                        <li class="text-left">The name of a street can have different spellings in different locations. When the automated speech recognizer(ASR) spells that word that the user spoke, it can be wrong as the ASR does not consider the proximity of the street to the user when doing recognition and this can lead to results that have slight misspellings relative to what the user intended. The spelling of the street can be outside the boundaries of the user rather than in the user's close proximity. This leads to the user getting a wrong output and the incorrect destination on the map. Example: A user is located in Pittsburgh, PA and spoke "1060 McNeilly Rd" the ASR output is "1060 McNeely Rd". The Maps database sends the user to "1060 McNeel Rd" in Akron, OH which is 149km away from the user instead of the correct McNeilly Road just 5km from the user!
+                        <br> My main project of the summer was using Lucene and Java in order to solve this problem and take the GeoLocation of the user into account. I implemented a fuzzy match on the users requested address(1060 McNeilly Rd) using the users current GeoLocation to produce a set of candidate results. I applied a fine comparison on all the fuzzy matches to produce a final hypothesis. The fine comparison is a Levinstein distance metric, with some normalization, and a lexically and phonetically inspired cost matrix matched to typical ASR errors. 
+                        <br> After initial development of the Algorithm I create several Python scripts in order to run tests on scoring, and latency, while continuously tweaking my algorithm for improved results. When I had finished my internship, my algorithm had improved the accurary of the results from 0.7477(pre-internship) to 0.7640(post-internship). 
+                        <br> This was an extremely interesting project and I cant wait to see where it goes from here! 
+                        </li> 
+
+                        <li class="text-left">After initial success with my first task above, I was asked to use Lucene and Java again, this time a project for Sony Interactive Entertainment(Sony). The project consisted of creating an algorithm, similar to above, to enabled Voice recognition on the Playstation 4. A user could ask the Playstation to play a game with a person on their friend's list. For example: I want to play The Withcher with The 3nterta1ner. A big challenge with this was the way users spell their GamerTags. 
                         </li>
-                        <li class="text-left">dfhkdfdfsfsdfsdfsdfsfsdfsdfsfsfsfsfsfdfsfsfs
-                        </li> -->
+
+                        <li class="text-left">Finally, I was the developer for the Canadian French Mix DTV. This project really got me confortable using the command line.    
+                        </li>
+                        -->
 
                     </p>
 
@@ -238,9 +246,6 @@
 
 
             <div class="row">
-
-
-
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -669,7 +674,6 @@
         $(document).ready(function() {
             $('[data-toggle="popover"]').popover();
         });
-
     </script>
 
     <!-- Google Analytics -->
@@ -688,7 +692,6 @@
 
         ga('create', 'UA-97389856-1', 'auto');
         ga('send', 'pageview');
-
     </script>
 
 </body>
