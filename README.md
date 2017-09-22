@@ -1,9 +1,7 @@
 # My Personal Website
 
 
-## Getting Started
-
-This is the website I made in order to show what I have done. Feel free to bookmark the page in order to stay up to date with my activity and projects. I created the webpage in April 2017. Updates will be made. Stay tuned!
+I made this website as a side project in order to show my portfolio and some history about myself. Feel free to bookmark the page in order to stay up to date with my activity and projects. I created the webpage in April 2017. Updates will be made. Stay tuned!
 
 
 ## Bugs and Issues
