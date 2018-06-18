@@ -40,9 +40,9 @@ document.addEventListener('keydown', function(e) {
 
 // update this to what I want it to be. 
 function activateCheats() {
-  document.body.style.backgroundImage = "url('img/about/Thank-You.jpg')";
+  document.body.style.backgroundImage = "url('img/eagles.jpg')";
 
-  var audio = new Audio('audio/Here Comes The Sun.mp3');
+  var audio = new Audio('audio/FlyEaglesFly.mp3');
   audio.play();
 
   alert("cheats activated");
