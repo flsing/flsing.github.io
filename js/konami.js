@@ -8,7 +8,7 @@ var allowedKeys = {
   66: 'b'
 };
 
-// Konami Code sequence
+// the 'official' Konami Code sequence
 var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
 
 // a variable to remember the 'position' the user has reached so far.
@@ -37,8 +37,6 @@ document.addEventListener('keydown', function(e) {
   }
 });
 
-
-// update this to what I want it to be. 
 function activateCheats() {
   document.body.style.backgroundImage = "url('img/eagles.jpg')";
 
