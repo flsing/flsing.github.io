@@ -47,4 +47,3 @@ function activateCheats() {
 
   alert("cheats activated");
 }
- Run code snippetReturn to post
